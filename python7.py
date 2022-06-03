@@ -6,7 +6,7 @@ with open('devices.txt') as routers:
         Router = {
             'device_type': 'cisco_ios',
             'ip': IP,
-            'username': 'test',
+            'username': 'tes',
             'password': 'test'
 
         }
