@@ -8,9 +8,9 @@ SCRIPT PERFORM ERROR HANDLING BEFORE AUTHENTICATING TO IP AND IF FILE DOES NOT E
 from netmiko import ConnectHandler
 from getpass import getpass
 from netmiko import ConnectHandler
-from netmiko.ssh_exception import NetMikoTimeoutException
-from paramiko.ssh_exception import SSHException
-from netmiko.ssh_exception import AuthenticationException
+from netmiko.exceptions import NetMikoTimeoutException
+from netmiko.exceptions import AuthenticationException
+from netmiko.exceptions import SSHException
 import time
 import ipaddress
 
